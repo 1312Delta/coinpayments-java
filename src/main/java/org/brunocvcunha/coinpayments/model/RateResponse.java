@@ -34,7 +34,7 @@ public class RateResponse {
     private String name;
     
     @JsonProperty("is_fiat")
-    private String fiat;
+    private int fiat;
     
     @JsonProperty("rate_btc")
     private String rateBtc;
@@ -46,6 +46,14 @@ public class RateResponse {
     
     @JsonProperty("tx_fee")
     private double txFee;
+
+    @JsonProperty("status")
+    private String status;
+
+    @JsonProperty("image")
+    private String image;
+
+
 
     private List<String> capabilities;
 
