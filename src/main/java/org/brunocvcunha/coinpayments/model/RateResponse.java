@@ -24,9 +24,11 @@ import lombok.Data;
 
 /**
  * Search Result
- * 
- * @author Bruno Candido Volpato da Cunha
  *
+ * @author Bruno Candido Volpato da Cunha
+ * @author Hector N.B.
+ *
+ *  JUN2023 Added missing parameters according to <a href="https://www.coinpayments.net/apidoc-rates">documentation</a>
  */
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)

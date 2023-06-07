@@ -26,9 +26,11 @@ import com.fasterxml.jackson.core.type.TypeReference;
 
 /**
  * Search GIFs Request
- * 
- * @author Bruno Candido Volpato da Cunha
  *
+ * @author Bruno Candido Volpato da Cunha
+ * @author Hector N.B.
+ *
+ * JUN2023 Modified only accepted parameter to comply with <a href="https://www.coinpayments.net/apidoc-rates">specification</a>
  */
 @RequiredArgsConstructor
 @AllArgsConstructor
