@@ -48,7 +48,7 @@ public class CoinPaymentsRatesRequest extends CoinPaymentsPostRequest<ResponseWr
     @Override
     @SneakyThrows
     public String getPayload() {
-        return "cmd=rates&accepted=" + (onlyAccepted ? "1" : "0") + "&short=" + (onlyShort ? "1" : "0");
+        return "cmd=rates&accepted=" + (onlyAccepted ? "2" : "1") + "&short=" + (onlyShort ? "1" : "0");
     }
 
 
