@@ -53,6 +53,9 @@ public class RateResponse {
     @JsonProperty("image")
     private String image;
 
+    @JsonProperty("accepted")
+    private int accepted;
+
 
 
     private List<String> capabilities;
